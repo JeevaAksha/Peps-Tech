@@ -1,6 +1,4 @@
-/* ==========================
-   RESET
-========================== */
+
 
 *{
     margin:0;
@@ -141,6 +139,7 @@ section:not(.hero)::after{
     display:flex;
     gap:40px;
     align-items:center;
+    justify-content:center;
     flex-wrap:wrap;
     background:rgba(255,255,255,.05);
     border:1px solid rgba(255,255,255,.08);
@@ -153,6 +152,8 @@ section:not(.hero)::after{
     width:350px;
     max-width:100%;
     border-radius:15px;
+    display:block;
+    margin:0 auto;
 }
 
 /* CARDS */
@@ -194,24 +195,9 @@ section:not(.hero)::after{
     text-align:center;
     overflow:hidden;
     padding-bottom:25px;
-    padding-top:70px;
-    position:relative;
 }
 
 .education-card img{width:100%;height:250px;object-fit:cover;}
-
-.education-card .edu-profile{
-    width:120px;
-    height:120px;
-    object-fit:cover;
-    border-radius:50%;
-    border:6px solid #38bdf8;
-    position:absolute;
-    top:10px;
-    left:50%;
-    transform:translateX(-50%);
-    box-shadow:0 8px 20px rgba(0,0,0,.4);
-}
 
 .certificate-card{
     padding:25px;
